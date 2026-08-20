@@ -207,7 +207,7 @@ header, section {
     gap: 5em;
 }
 
-#PE-homework-task a {
+.PE-homework-task a {
     display: column;
     justify-content: center;
     list-style: none;
@@ -260,7 +260,7 @@ header, section {
     gap: 5em;
 }
 
-#e1-homework-task a {
+.e1-homework-task a {
     display: column;
     justify-content: center;
     list-style: none;
