@@ -170,7 +170,7 @@ header, section {
     text-align: center;
 }
 
-.pre-entry-resource {
+.PE-resource-section {
     text-align: center;
     font-size: 1.25em;
     list-style: none;
@@ -183,7 +183,7 @@ header, section {
     border-style: solid;
 }
 
-.pre-entry-resource h2 {
+.PE-resource-section h2 {
     display: column;
     justify-content: center;
     list-style: none;
@@ -191,7 +191,7 @@ header, section {
     gap: 5em;
 }
 
-.pre-entry-resource h3 {
+.PE-resource-section h3 {
     display: column;
     justify-content: center;
     list-style: none;
@@ -199,7 +199,7 @@ header, section {
     gap: 5em;
 }
 
-.pre-entry-resource ul {
+.PE-resource-section ul {
     display: column;
     justify-content: center;
     list-style: none;
@@ -223,7 +223,7 @@ header, section {
     border-radius: 10px;
     text-align: center;
 }
-.entry-1-resource {
+.E1-resource-section {
     text-align: center;
     font-size: 1.25em;
     list-style: none;
@@ -236,7 +236,7 @@ header, section {
     border-style: solid;
 }
 
-.entry-1-resource h2 {
+.E1-resource-section h2 {
     display: column;
     justify-content: center;
     list-style: none;
@@ -244,7 +244,7 @@ header, section {
     gap: 5em;
 }
 
-.entry-1-resource h3 {
+.E1-resource-section h3 {
     display: column;
     justify-content: center;
     list-style: none;
@@ -252,7 +252,7 @@ header, section {
     gap: 5em;
 }
 
-.entry-1-resource ul {
+.E1-resource-section ul {
     display: column;
     justify-content: center;
     list-style: none;
@@ -260,7 +260,7 @@ header, section {
     gap: 5em;
 }
 
-.e1-homework-task a {
+.E1-homework-task a {
     display: column;
     justify-content: center;
     list-style: none;

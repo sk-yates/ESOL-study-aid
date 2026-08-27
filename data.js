@@ -36,7 +36,7 @@ const preEntry = {
         
         {// Week 1 - Pre-Entry - Published
             id: "week1",
-            name: "Week 1",
+            name: "Week 1", //displayed on the week selection page
             published: true,
             sections: {
                 spelling: {
@@ -67,55 +67,55 @@ const preEntry = {
                 spelling: [
                     {
                         classId: "pe-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEA_Spelling_URL",
                     },
                     {
                         classId: "pe-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEB_Spelling_URL",
                     },
                     {
                         classId: "pe-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEC_Spelling_URL",
                     },
                     {
                         classId: "pe-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PED_Spelling_URL",
                     }
                 ],
                 phonics: [
                     {
                         classId: "pe-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEA_Phonics_URL",
                     },
                     {
                         classId: "pe-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEB_Phonics_URL",
                     },
                     {
                         classId: "pe-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEC_Phonics_URL",
                     },
                     {
                         classId: "pe-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PED_Phonics_URL",
                     }
                 ],
                 grammar: [
                     {
                         classId: "pe-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEA_Grammar_URL",
                     },
                     {
                         classId: "pe-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEB_Grammar_URL",
                     },
                     {
                         classId: "pe-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PEC_Grammar_URL",
                     },
                     {
                         classId: "pe-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_PED_Grammar_URL",
                     }
                 ]
             }

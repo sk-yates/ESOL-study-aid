@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESOL Class Resources</title>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="class-header" id="class-header">
+
+        <nav>
+            <ul>
+                <li id="home-link"><a href="index.html">Home</a></li>
+                <li id="level-link"><a id="level-link-anchor" href="level.html">Level</a></li>
+                <li id="resources-link">Class Resources</li>
+            </ul>
+        </nav>
+
+        <h1 class="class-title" id="class-title"></h1>
+
+    </header>
+
+    <div class="flex-container" id="class-resource-list"></div>
+
+    <script>
+
+        const classHeader = document.getElementById('class-header');
+        const classTitle = document.getElementById('class-title');
+        const classResourceList = document.getElementById('class-resource-list');
+
+        const levelId = getParam('level');
+        const weekId = getParam('week');
+        const level = getLevelById(levelId);
+        const week = getWeekById(level, weekId);
+
+
+        function spellingHtml(section) {
+            const items = section.words.map(word => `<li>${word}</li>`).join('');
+            return `
+            <h2>${section.title}</h2>
+            <p>Practice spelling the following words:</p>
+            <ul>${items}</ul>`;
+        }
+
+        function phonicsHtml(section) {
+            return `
+            <h2>${section.title}</h2>
+            <p>Practice the following phonics rules:</p>
+            <h3>${section.rule}</h3>
+            <p>Examples: <strong>${section.words.join(', ')}</strong></p>`;
+        }
+
+        function grammarHtml(section) {
+            const points = section.points.map(p => `<p>${p.pattern}</p>`).join('');
+            return `
+            <h2>${section.title}</h2>
+            <p>Practice using the following grammar points:</p>${points}`;
+        }
+
+
+        // Maps a section key to the function that knows how to render it —
+        // an object used as a lookup table, instead of an if/else chain.
+        const SECTION_RENDERERS = {
+            spelling: spellingHtml,
+            phonics: phonicsHtml,
+            grammar: grammarHtml
+        };
+
+
+        // Fixed order, independent of however the keys happen to be
+        // written in data.js — this is what guarantees Spelling always
+        // comes before Phonics always comes before Grammar.
+        const SECTION_ORDER = ['spelling', 'phonics', 'grammar'];
+
+        function sectionBlockHtml(level, week, key) {
+            const section = week.sections[key];
+            const practiceLink = `<a href="practice.html?level=${level.id}&week=${week.id}&section=${key}">Practice</a>`;
+            return `<div class="flex-item ${resourceSectionColorClass(level)}" id="${section.id}">
+                ${SECTION_RENDERERS[key](section)}
+                ${practiceLink}
+            </div>`;
+        }
+
+
+
+
+        // set this before the guard — even if the level is invalid
+        // passing along whatever levelId was in the URL is harmless for navigation.
+        document.getElementById('level-link-anchor').href = `level.html?level=${levelId}`;
+
+        // Guard: stop here with a clear message if the URL doesn't match a
+        // real level or week, instead of the next lines throwing on `level.name`.
+        if (!level || !week) {
+            classTitle.textContent = 'Level or Week not found';
+        } else {
+            classTitle.textContent = `${level.name} - ${week.name}`;
+            classHeader.className = resourceHeaderColorClass(level);
+            classResourceList.innerHTML = SECTION_ORDER.filter(key => week.sections[key])
+                // drop keys this week doesn't have
+                .map(key => sectionBlockHtml(level, week, key))
+                // build each block's HTML
+                .join('');
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

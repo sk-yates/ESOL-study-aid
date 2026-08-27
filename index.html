@@ -23,15 +23,9 @@
 
         const levelList = document.getElementById('level-list');
 
-        function colorClass(level) {
-            if (level.id === "pe") return "pre-entry";
-            if (level.id === "e-1") return "entry-1";
-            return " ";
-        }
-
         // Build one tile's HTML for a single level object.
         function levelTileHtml(level) {
-            const classes = ['flex-item', colorClass(level)];
+            const classes = ['flex-item', tileColorClass(level)];
             if (!level.published) classes.push('inactive');
 
             const heading = `<h2>${level.name}</h2>`;
@@ -50,7 +44,6 @@
         // one string with nothing between entries (no separator needed —
         // each tile is already a full <div>...</div>).
         levelList.innerHTML = SITE_DATA.levels.map(levelTileHtml).join('');
-
 
     </script>
 

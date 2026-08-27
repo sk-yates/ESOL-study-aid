@@ -35,3 +35,32 @@ function getRememberedClass(levelId) {
 function setRememberedClass(levelId, classId) {
     localStorage.setItem(`rememberedClass-${levelId}`, classId);
 }
+
+// --------------------------------------------------------------------------
+
+// +++ Level color function +++
+// This function returns the colour associated with a level based on its ID.
+
+function headerColorClass(level) {
+    if (level.id === "pe") return "PE-level-header";
+    if (level.id === "e-1") return "E1-level-header";
+    return "";
+}
+
+function tileColorClass(level) {
+    if (level.id === "pe") return "pre-entry";
+    if (level.id === "e-1") return "entry-1";
+    return "";
+}
+
+function resourceHeaderColorClass(level) {
+    if (level.id === "pe") return "PE-resource-header";
+    if (level.id === "e-1") return "E1-resource-header";
+    return "";
+}
+
+function resourceSectionColorClass(level) {
+    if (level.id === "pe") return "PE-resource-section";
+    if (level.id === "e-1") return "E1-resource-section";
+    return "";
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESOL Level Topics</title>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="level-header" id="level-header">
+
+        <nav>
+            <ul>
+                <li id="home-link"><a href="index.html">Home</a></li>
+                <li id="level-link">Level</li>
+                <li id="resources-link">Class Resources</li>
+            </ul>
+        </nav>
+
+        <h1 class="level-title" id="level-title"></h1>
+
+    </header>
+
+    <div class="flex-container" id="topic-list"></div>
+
+    <script>
+
+        const levelHeader = document.getElementById('level-header');
+        const levelTitle = document.getElementById('level-title');
+        const topicList = document.getElementById('topic-list');
+
+        const levelId = getParam('level');
+        const level = getLevelById(levelId);
+
+
+        function weekTileHtml(level, week) {
+            const classes = ['flex-item', tileColorClass(level)];
+            if (!week.published) classes.push('inactive');
+
+            const heading = `<h2>${week.name}</h2>`;
+
+            // Published weeks get wrapped in a link; unpublished ones
+            // stay as plain text inside the div and are greyed out.
+            const inner = week.published
+                ? `<a href="class.html?level=${level.id}&week=${week.id}">${heading}</a>`
+                : heading;
+
+            return `<div class="${classes.join(' ')}" id="${week.id}">${inner}</div>`;
+        }
+
+        // Guard: stop here with a clear message if the URL doesn't match a
+        // real level, instead of the next lines throwing on `level.name`.
+        if (!level) {
+            levelTitle.textContent = 'Level not found';
+        } else {
+            levelHeader.classList.add(headerColorClass(level));
+            levelTitle.textContent = level.name;
+            topicList.innerHTML = level.weeks.map(week => weekTileHtml(level, week)).join('');
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

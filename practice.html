@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESOL Practice</title>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="practice-header" id="practice-header">
+        <nav>
+            <ul>
+                <li id="home-link"><a href="index.html">Home</a></li>
+                <li id="level-link"><a id="level-link-anchor" href="level.html">Level</a></li>
+            </ul>
+        </nav>
+        <h1 class="practice-title" id="practice-title"></h1>
+    </header>
+
+    <div class="flex-container" id="practice-list"></div>
+
+    <script>
+
+        const practiceHeader = document.getElementById('practice-header');
+        const practiceTitle = document.getElementById('practice-title');
+        const practiceList = document.getElementById('practice-list');
+
+        const levelId = getParam('level');
+        const weekId = getParam('week');
+        const sectionKey = getParam('section');
+
+        const level = getLevelById(levelId);
+        const week = getWeekById(level, weekId);
+        const section = week.sections[sectionKey];
+        const entries = week.practice[sectionKey];
+
+        document.getElementById('level-link-anchor').href = `level.html?level=${levelId}`;
+
+        // Build one class's link — straight through to that class's Kahoot.
+        function practiceLinkHtml(level, entry) {
+            const cls = getClassById(level, entry.classId);
+            return `<a class="flex-item" href="${entry.kahootUrl}" target="_blank" rel="noopener">${cls.name}</a>`;
+        }
+
+        if (!level || !week || !section) {
+            practiceTitle.textContent = 'Practice not found';
+        } else {
+            practiceTitle.textContent = `${section.title} Practice — ${week.name} | ${level.name}`;
+            practiceList.innerHTML = entries.map(entry => practiceLinkHtml(level, entry)).join('');
+        }
+
+    </script>
+
+</body>
+
+</html>
