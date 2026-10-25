@@ -16,7 +16,7 @@
 const preEntry = {
     id: "pe", //used in the URL to identify the level
     name: "Pre-Entry", //displayed on the level selection page
-    published: true, //if published: false, the level is greyed out on the level page and cannot be selected.
+    published: false, //if published: false, the level is greyed out on the level page and cannot be selected.
 
     classes: // Contains the classes for the Pre-Entry level. Each class has an id and a name. 
     [
