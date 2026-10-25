@@ -226,6 +226,10 @@ header, section {
     background-color: var(--secondary-color-PE);
 }
 
+.PE-resource-section strong {
+    color: var(--secondary-color-PE);
+}
+
 /*   Entry 1 Resources Styles   */
 .E1-resource-header {
     background-color: var(--color-E1);
@@ -285,6 +289,10 @@ header, section {
 
 .E1-practice-button:hover {
     background-color: var(--secondary-color-E1);
+}
+
+.E1-resource-section strong {
+    color: var(--secondary-color-E1);
 }
 
 /*  -------------------------------------- Practice.html Styles --------------------------------------  */

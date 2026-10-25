@@ -230,22 +230,23 @@ const entry1 = {
                 spelling: {
                     id: "entry1-wk8-spelling-list",
                     title: "Spelling List",
-                    words: ['first name', 'last name', 'address', 'postcode', 'country',
-                        'city', 'telephone number', 'email address', 'date of birth', 'age']
+                    words: ['meat', 'rice', 'bread', 'chicken', 'fish',
+                        'cheese', 'tea', 'coffee', 'eat', 'drink']
                 },
                 phonics: {
                     id: "entry1-wk8-phonics",
                     title: "Phonics",
-                    rule: "a_e",
-                    words: ['name, age, date']
+                    rule: ["a ai ay"],
+                    words: ['man', 'wait', 'play']
                 },
                 grammar: {
                     id: "entry1-wk8-grammar",
                     title: "Grammar",
                     points: [
-                        { pattern: 'My name is [first name] [last name].' },
-                        { pattern: 'I am [age] years old.' },
-                        { pattern: 'I live in [country].' },
+                        { pattern: 'My name <strong>is</strong> Mohammed.' },
+                        { pattern: 'I <strong>am</strong> 34 years old.' },
+                        { pattern: 'I <strong>am</strong> from Egypt.' },
+                        { pattern: 'I <strong>am</strong> married.' },
                     ]
                 }
             },
@@ -254,55 +255,55 @@ const entry1 = {
                 spelling: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/007787817",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fb",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fc",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fd",
                     }
                 ],
                 phonics: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/009963130",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fb",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fc",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fd",
                     }
                 ],
                 grammar: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/001218920",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fb",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fc",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fd",
                     }
                 ]
             }
@@ -311,7 +312,7 @@ const entry1 = {
         {//Week 9 - Entry 1 - Unpublished
             id: "week9",
             name: "Week 9",
-            published: true,
+            published: false,
             sections: {
                 spelling: {
                     id: "entry1-wk9-spelling-list",

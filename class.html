@@ -43,23 +43,23 @@
             const items = section.words.map(word => `<li>${word}</li>`).join('');
             return `
             <h2>${section.title}</h2>
-            <p>Practice spelling the following words:</p>
+            <p><u><i>Practise spelling these words</i></u></p>
             <ul>${items}</ul>`;
         }
 
         function phonicsHtml(section) {
             return `
             <h2>${section.title}</h2>
-            <p>Practice the following phonics rules:</p>
+            <p><u><i>Practise these sounds</i></u></p>
             <h3>${section.rule}</h3>
-            <p>Examples: <strong>${section.words.join(', ')}</strong></p>`;
+            <p>Examples: <strong><br>${section.words.join(' <br> ')}</br></strong></p>`;
         }
 
         function grammarHtml(section) {
             const points = section.points.map(p => `<p>${p.pattern}</p>`).join('');
             return `
             <h2>${section.title}</h2>
-            <p>Practice using the following grammar points:</p>${points}`;
+            <p><u><i>Practise this grammar</i></u></p>${points}`;
         }
 
 
