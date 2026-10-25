@@ -18,7 +18,6 @@
             <ul>
                 <li id="home-link"><a href="index.html">Home</a></li>
                 <li id="level-link"><a id="level-link-anchor" href="level.html">Level</a></li>
-                <li id="resources-link">Class Resources</li>
             </ul>
         </nav>
 
@@ -80,7 +79,7 @@
 
         function sectionBlockHtml(level, week, key) {
             const section = week.sections[key];
-            const practiceLink = `<a href="practice.html?level=${level.id}&week=${week.id}&section=${key}">Practice</a>`;
+            const practiceLink = `<a class="${practiceButtonColorClass(level)}" href="practice.html?level=${level.id}&week=${week.id}&section=${key}">Practice</a>`;
             return `<div class="flex-item ${resourceSectionColorClass(level)}" id="${section.id}">
                 ${SECTION_RENDERERS[key](section)}
                 ${practiceLink}
@@ -100,7 +99,7 @@
             classTitle.textContent = 'Level or Week not found';
         } else {
             classTitle.textContent = `${level.name} - ${week.name}`;
-            classHeader.className = resourceHeaderColorClass(level);
+            classHeader.classList.add(resourceHeaderColorClass(level));
             classResourceList.innerHTML = SECTION_ORDER.filter(key => week.sections[key])
                 // drop keys this week doesn't have
                 .map(key => sectionBlockHtml(level, week, key))

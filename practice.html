@@ -17,6 +17,7 @@
             <ul>
                 <li id="home-link"><a href="index.html">Home</a></li>
                 <li id="level-link"><a id="level-link-anchor" href="level.html">Level</a></li>
+                <li id="class-link"><a id="class-link-anchor" href="class.html">Class Resources</a></li>
             </ul>
         </nav>
         <h1 class="practice-title" id="practice-title"></h1>
@@ -40,11 +41,12 @@
         const entries = week.practice[sectionKey];
 
         document.getElementById('level-link-anchor').href = `level.html?level=${levelId}`;
+        document.getElementById('class-link-anchor').href = `class.html?level=${levelId}&week=${weekId}`;
 
         // Build one class's link — straight through to that class's Kahoot.
         function practiceLinkHtml(level, entry) {
             const cls = getClassById(level, entry.classId);
-            return `<a class="flex-item" href="${entry.kahootUrl}" target="_blank" rel="noopener">${cls.name}</a>`;
+            return `<a class="flex-item ${practiceLinkColorClass(level)}" href="${entry.kahootUrl}" target="_blank" rel="noopener">${cls.name}</a>`;
         }
 
         if (!level || !week || !section) {
@@ -52,6 +54,7 @@
         } else {
             practiceTitle.textContent = `${section.title} Practice — ${week.name} | ${level.name}`;
             practiceList.innerHTML = entries.map(entry => practiceLinkHtml(level, entry)).join('');
+            practiceHeader.classList.add(practiceHeaderColorClass(level));
         }
 
     </script>
