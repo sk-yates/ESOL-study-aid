@@ -311,7 +311,7 @@ const entry1 = {
         {//Week 9 - Entry 1 - Unpublished
             id: "week9",
             name: "Week 9",
-            published: false,
+            published: true,
             sections: {
                 spelling: {
                     id: "entry1-wk9-spelling-list",
