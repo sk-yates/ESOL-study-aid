@@ -52,14 +52,14 @@
             <h2>${section.title}</h2>
             <p><u><i>Practise these sounds</i></u></p>
             <h3>${section.rule}</h3>
-            <p>Examples: <strong><br>${section.words.join(' <br> ')}</br></strong></p>`;
+            <p>Examples: <ul>${section.words.join(' <br> ')}</ul>`;
         }
 
         function grammarHtml(section) {
             const points = section.points.map(p => `<p>${p.pattern}</p>`).join('');
             return `
             <h2>${section.title}</h2>
-            <p><u><i>Practise this grammar</i></u></p>${points}`;
+            <p><u><i>Practise this grammar</i></u></p><ul>${points}</ul>`;
         }
 
 
