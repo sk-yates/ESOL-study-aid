@@ -52,7 +52,7 @@
         if (!level || !week || !section) {
             practiceTitle.textContent = 'Practice not found';
         } else {
-            practiceTitle.textContent = `${section.title} Practice — ${week.name} | ${level.name}`;
+            practiceTitle.textContent = `${section.title} | ${week.name} | ${level.name}`;
             practiceList.innerHTML = entries.map(entry => practiceLinkHtml(level, entry)).join('');
             practiceHeader.classList.add(practiceHeaderColorClass(level));
         }

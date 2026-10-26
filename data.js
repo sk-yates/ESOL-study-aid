@@ -229,7 +229,7 @@ const entry1 = {
             sections: {
                 spelling: {
                     id: "entry1-wk8-spelling-list",
-                    title: "Spelling List",
+                    title: "Spelling",
                     words: ['meat', 'rice', 'bread', 'chicken', 'fish',
                         'cheese', 'tea', 'coffee', 'eat', 'drink']
                 },
@@ -316,7 +316,7 @@ const entry1 = {
             sections: {
                 spelling: {
                     id: "entry1-wk9-spelling-list",
-                    title: "Spelling List",
+                    title: "Spelling",
                     words: ['word1', 'word2', 'word3']
                 },
                 phonics: {
@@ -400,7 +400,7 @@ const entry1 = {
             sections: {
                 spelling: {
                     id: "entry1-wk10-spelling-list",
-                    title: "Spelling List",
+                    title: "Spelling",
                     words: ['word1', 'word2', 'word3']
                 },
                 phonics: {
@@ -484,7 +484,7 @@ const entry1 = {
             sections: {
                 spelling: {
                     id: "entry1-wk11-spelling-list",
-                    title: "Spelling List",
+                    title: "Spelling",
                     words: ['word1', 'word2', 'word3']
                 },
                 phonics: {
@@ -568,7 +568,7 @@ const entry1 = {
             sections: {
                 spelling: {
                     id: "entry1-wk12-spelling-list",
-                    title: "Spelling List",
+                    title: "Spelling",
                     words: ['word1', 'word2', 'word3']
                 },
                 phonics: {
@@ -652,7 +652,7 @@ const entry1 = {
             sections: {
                 spelling: {
                     id: "entry1-wk13-spelling-list",
-                    title: "Spelling List",
+                    title: "Spelling",
                     words: ['word1', 'word2', 'word3']
                 },
                 phonics: {
