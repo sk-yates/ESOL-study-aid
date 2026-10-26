@@ -236,8 +236,8 @@ const entry1 = {
                 phonics: {
                     id: "entry1-wk8-phonics",
                     title: "Phonics",
-                    rule: ["a ai ay"],
-                    words: ['man', 'wait', 'play']
+                    rule: ["a igh ay"],
+                    words: ['cat', 'light', 'play']
                 },
                 grammar: {
                     id: "entry1-wk8-grammar",
@@ -259,33 +259,33 @@ const entry1 = {
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fb",
+                        kahootUrl: "https://kahoot.it/challenge/00875497",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fc",
+                        kahootUrl: "https://kahoot.it/challenge/00200358",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fd",
+                        kahootUrl: "https://kahoot.it/challenge/00909724",
                     }
                 ],
                 phonics: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "https://kahoot.it/challenge/009963130",
+                        kahootUrl: "https://kahoot.it/challenge/009055964",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fb",
+                        kahootUrl: "https://kahoot.it/challenge/0093944853",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fc",
+                        kahootUrl: "https://kahoot.it/challenge/004177697",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fd",
+                        kahootUrl: "https://kahoot.it/challenge/008581879",
                     }
                 ],
                 grammar: [
@@ -295,15 +295,15 @@ const entry1 = {
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fb",
+                        kahootUrl: "https://kahoot.it/challenge/0095011826",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fc",
+                        kahootUrl: "https://kahoot.it/challenge/008823369",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL_E1fd",
+                        kahootUrl: "https://kahoot.it/challenge/005870892",
                     }
                 ]
             }
