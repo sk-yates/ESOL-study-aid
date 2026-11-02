@@ -323,7 +323,7 @@ const entry1 = {
                     id: "entry1-wk9-phonics",
                     title: "Phonics",
                     rule: ["L R"],
-                    words: ['lips', 'slip', 'lock']
+                    words: ['lips', 'slip', 'lock', 'brush', 'dress', 'green']
                 },
                 grammar: {
                     id: "entry1-wk9-grammar",
