@@ -317,7 +317,7 @@ const entry1 = {
                 spelling: {
                     id: "entry1-wk9-spelling-list",
                     title: "Spelling",
-                    words: ['word1', 'word2', 'word3']
+                    words: ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred', 'thousand']
                 },
                 phonics: {
                     id: "entry1-wk9-phonics",
