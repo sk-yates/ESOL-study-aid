@@ -322,8 +322,8 @@ const entry1 = {
                 phonics: {
                     id: "entry1-wk9-phonics",
                     title: "Phonics",
-                    rule: "rule2",
-                    words: ['word4', 'word5', 'word6']
+                    rule: ["L R"],
+                    words: ['lips', 'slip', 'lock']
                 },
                 grammar: {
                     id: "entry1-wk9-grammar",
