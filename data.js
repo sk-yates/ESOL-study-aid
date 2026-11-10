@@ -222,9 +222,9 @@ const entry1 = {
 
     weeks: [
 
-        {// Week 8 - Entry 1 - Published
+        {// Week 8 (Now Week 9) - Entry 1 - Published
             id: "week8",
-            name: "Week 8",
+            name: "Week 9",
             published: true,
             sections: {
                 spelling: {
@@ -309,10 +309,10 @@ const entry1 = {
             }
         },
 
-        {//Week 9 - Entry 1 - Unpublished
+        {//Week 9 (Now week 10) - Entry 1 - Unpublished
             id: "week9",
-            name: "Week 9",
-            published: true,
+            name: "Week 10",
+            published: false,
             sections: {
                 spelling: {
                     id: "entry1-wk9-spelling-list",
@@ -393,9 +393,9 @@ const entry1 = {
             }
         },
 
-        {//Week 10 - Entry 1 - Unpublished
+        {//Week 10 (Now Week 11) - Entry 1 - Unpublished
             id: "week10",
-            name: "Week 10",
+            name: "Week 11",
             published: false,
             sections: {
                 spelling: {
@@ -477,9 +477,9 @@ const entry1 = {
             }
         },
 
-        {//Week 11 - Entry 1 - Unpublished
+        {//Week 11 (Now Week 12) - Entry 1 - Unpublished
             id: "week11",
-            name: "Week 11",
+            name: "Week 12",
             published: false,
             sections: {
                 spelling: {
@@ -561,9 +561,9 @@ const entry1 = {
             }
         },
 
-        {//Week 12 - Entry 1 - Unpublished
+        {//Week 12 (Now Week 13) - Entry 1 - Unpublished
             id: "week12",
-            name: "Week 12",
+            name: "Week 13",
             published: false,
             sections: {
                 spelling: {
@@ -645,89 +645,89 @@ const entry1 = {
             }
         },
 
-        {//Week 13 - Entry 1 - Unpublished
-            id: "week13",
-            name: "Week 13",
-            published: false,
-            sections: {
-                spelling: {
-                    id: "entry1-wk13-spelling-list",
-                    title: "Spelling",
-                    words: ['word1', 'word2', 'word3']
-                },
-                phonics: {
-                    id: "entry1-wk13-phonics",
-                    title: "Phonics",
-                    rule: "rule2",
-                    words: ['word4', 'word5', 'word6']
-                },
-                grammar: {
-                    id: "entry1-wk13-grammar",
-                    title: "Grammar",
-                    points: [
-                        { pattern: 'Pattern 1' },
-                        { pattern: 'Pattern 2' },
-                        { pattern: 'Pattern 3' },
-                    ]
-                }
-            },
-            practice: {
-                spelling: [
-                    {
-                        classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    }
-                ],
-                phonics: [
-                    {
-                        classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    }
-                ],
-                grammar: [
-                    {
-                        classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    },
-                    {
-                        classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-                    }
-                ]
-            }
-        },
+        // {//Week 13 - Entry 1 - Unpublished
+        //     id: "week13",
+        //     name: "Week 13",
+        //     published: false,
+        //     sections: {
+        //         spelling: {
+        //             id: "entry1-wk13-spelling-list",
+        //             title: "Spelling",
+        //             words: ['word1', 'word2', 'word3']
+        //         },
+        //         phonics: {
+        //             id: "entry1-wk13-phonics",
+        //             title: "Phonics",
+        //             rule: "rule2",
+        //             words: ['word4', 'word5', 'word6']
+        //         },
+        //         grammar: {
+        //             id: "entry1-wk13-grammar",
+        //             title: "Grammar",
+        //             points: [
+        //                 { pattern: 'Pattern 1' },
+        //                 { pattern: 'Pattern 2' },
+        //                 { pattern: 'Pattern 3' },
+        //             ]
+        //         }
+        //     },
+        //     practice: {
+        //         spelling: [
+        //             {
+        //                 classId: "e1-a",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-b",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-c",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-d",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             }
+        //         ],
+        //         phonics: [
+        //             {
+        //                 classId: "e1-a",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-b",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-c",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-d",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             }
+        //         ],
+        //         grammar: [
+        //             {
+        //                 classId: "e1-a",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-b",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-c",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             },
+        //             {
+        //                 classId: "e1-d",
+        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+        //             }
+        //         ]
+        //     }
+        // },
 
 
     ],
