@@ -317,7 +317,7 @@ const entry1 = {
                 spelling: {
                     id: "entry1-wk9-spelling-list",
                     title: "Spelling",
-                    words: ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety', 'hundred', 'thousand']
+                    words: ['stomach', 'knee', 'foot', 'hand', 'headache', 'backache', 'a sore arm', 'sick', 'a sore throat', 'arm']
                 },
                 phonics: {
                     id: "entry1-wk9-phonics",
