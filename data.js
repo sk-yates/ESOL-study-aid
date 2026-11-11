@@ -339,19 +339,19 @@ const entry1 = {
                 spelling: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/008426162",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0071075317",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/006247895",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0069673962",
                     }
                 ],
                 phonics: [
