@@ -309,10 +309,10 @@ const entry1 = {
             }
         },
 
-        {//Week 9 (Now week 10) - Entry 1 - Unpublished
+        {//Week 9 (Now week 10) - Entry 1 - Published
             id: "week9",
             name: "Week 10",
-            published: false,
+            published: true,
             sections: {
                 spelling: {
                     id: "entry1-wk9-spelling-list",
@@ -329,9 +329,9 @@ const entry1 = {
                     id: "entry1-wk9-grammar",
                     title: "Grammar",
                     points: [
-                        { pattern: 'Pattern 1' },
-                        { pattern: 'Pattern 2' },
-                        { pattern: 'Pattern 3' },
+                        { pattern: 'She <strong>has</strong> got blue eye.' },
+                        { pattern: 'I <strong>have</strong> got 2 children.' },
+                        { pattern: 'They <strong>have</strong> got a dog.' },
                     ]
                 }
             },
@@ -357,37 +357,37 @@ const entry1 = {
                 phonics: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/005602436",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/008572374",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/004639852",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0032375605",
                     }
                 ],
                 grammar: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/001855148",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/004032849",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/004728209",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0051786809",
                     }
                 ]
             }
