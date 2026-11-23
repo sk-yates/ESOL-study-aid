@@ -404,12 +404,12 @@ const entry1 = {
                     words: ['chemist', 'pharmacy', 'tablets','cream',
                         'capsules', 'medicine', 'hospital', 'plaster', 'cough', 'rash']
                 },
-                phonics: {
-                    id: "entry1-wk10-phonics",
-                    title: "Phonics",
-                    rule: "rule2",
-                    words: ['word4', 'word5', 'word6']
-                },
+                // phonics: {
+                //     id: "entry1-wk10-phonics",
+                //     title: "Phonics",
+                //     rule: "rule2",
+                //     words: ['word4', 'word5', 'word6']
+                // },
                 grammar: {
                     id: "entry1-wk10-grammar",
                     title: "Grammar",
