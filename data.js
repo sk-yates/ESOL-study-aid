@@ -404,12 +404,12 @@ const entry1 = {
                     words: ['chemist', 'pharmacy', 'tablets','cream',
                         'capsules', 'medicine', 'hospital', 'plaster', 'cough', 'rash']
                 },
-                // phonics: {
-                //     id: "entry1-wk10-phonics",
-                //     title: "Phonics",
-                //     rule: "rule2",
-                //     words: ['word4', 'word5', 'word6']
-                // },
+                phonics: {
+                    id: "entry1-wk10-phonics",
+                    title: "Phonics",
+                    rule: "rule2",
+                    words: ['word4', 'word5', 'word6']
+                },
                 grammar: {
                     id: "entry1-wk10-grammar",
                     title: "Grammar",
@@ -418,7 +418,13 @@ const entry1 = {
                         { pattern: 'Pattern 2' },
                         { pattern: 'Pattern 3' },
                     ]
-                }
+                },
+                extra: {
+                    id: "entry1-wk10-extra",
+                    title: "Extra tasks",
+                    rule: "Extra-Extra",
+                    words: ['Ex1', 'Ex2', 'Ex3']
+                },
             },
             practice: {
                 spelling: [
