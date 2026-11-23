@@ -401,7 +401,8 @@ const entry1 = {
                 spelling: {
                     id: "entry1-wk10-spelling-list",
                     title: "Spelling",
-                    words: ['word1', 'word2', 'word3']
+                    words: ['chemist', 'pharmacy', 'tablets','cream',
+                        'capsules', 'medicine', 'hospital', 'plaster', 'cough', 'rash']
                 },
                 phonics: {
                     id: "entry1-wk10-phonics",
@@ -423,19 +424,19 @@ const entry1 = {
                 spelling: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/006727120",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/004091403",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/009421391",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0059696051",
                     }
                 ],
                 phonics: [
@@ -645,7 +646,7 @@ const entry1 = {
             }
         },
 
-        {//Week 13 (Half-Term) - Entry 1 - Unpublished
+        {//Week 13 (Winter Hol) - Entry 1 - Unpublished
             id: "week13",
             name: "Winter Holiday",
             published: false,
