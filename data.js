@@ -418,13 +418,7 @@ const entry1 = {
                         { pattern: 'Pattern 2' },
                         { pattern: 'Pattern 3' },
                     ]
-                },
-                extra: {
-                    id: "entry1-wk10-extra",
-                    title: "Extra tasks",
-                    rule: "Extra-Extra",
-                    words: ['Ex1', 'Ex2', 'Ex3']
-                },
+                }
             },
             practice: {
                 spelling: [
