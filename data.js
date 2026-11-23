@@ -645,89 +645,89 @@ const entry1 = {
             }
         },
 
-        // {//Week 13 - Entry 1 - Unpublished
-        //     id: "week13",
-        //     name: "Week 13",
-        //     published: false,
-        //     sections: {
-        //         spelling: {
-        //             id: "entry1-wk13-spelling-list",
-        //             title: "Spelling",
-        //             words: ['word1', 'word2', 'word3']
-        //         },
-        //         phonics: {
-        //             id: "entry1-wk13-phonics",
-        //             title: "Phonics",
-        //             rule: "rule2",
-        //             words: ['word4', 'word5', 'word6']
-        //         },
-        //         grammar: {
-        //             id: "entry1-wk13-grammar",
-        //             title: "Grammar",
-        //             points: [
-        //                 { pattern: 'Pattern 1' },
-        //                 { pattern: 'Pattern 2' },
-        //                 { pattern: 'Pattern 3' },
-        //             ]
-        //         }
-        //     },
-        //     practice: {
-        //         spelling: [
-        //             {
-        //                 classId: "e1-a",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-b",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-c",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-d",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             }
-        //         ],
-        //         phonics: [
-        //             {
-        //                 classId: "e1-a",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-b",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-c",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-d",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             }
-        //         ],
-        //         grammar: [
-        //             {
-        //                 classId: "e1-a",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-b",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-c",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             },
-        //             {
-        //                 classId: "e1-d",
-        //                 kahootUrl: "REPLACE_WITH_KAHOOT_URL",
-        //             }
-        //         ]
-        //     }
-        // },
+        {//Week 13 (Half-Term) - Entry 1 - Unpublished
+            id: "week13",
+            name: "Winter Holiday",
+            published: false,
+            sections: {
+                spelling: {
+                    id: "entry1-wk13-spelling-list",
+                    title: "Spelling",
+                    words: ['word1', 'word2', 'word3']
+                },
+                phonics: {
+                    id: "entry1-wk13-phonics",
+                    title: "Phonics",
+                    rule: "rule2",
+                    words: ['word4', 'word5', 'word6']
+                },
+                grammar: {
+                    id: "entry1-wk13-grammar",
+                    title: "Grammar",
+                    points: [
+                        { pattern: 'Pattern 1' },
+                        { pattern: 'Pattern 2' },
+                        { pattern: 'Pattern 3' },
+                    ]
+                }
+            },
+            practice: {
+                spelling: [
+                    {
+                        classId: "e1-a",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-b",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-c",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-d",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    }
+                ],
+                phonics: [
+                    {
+                        classId: "e1-a",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-b",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-c",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-d",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    }
+                ],
+                grammar: [
+                    {
+                        classId: "e1-a",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-b",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-c",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    },
+                    {
+                        classId: "e1-d",
+                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                    }
+                ]
+            }
+        },
 
 
     ],
