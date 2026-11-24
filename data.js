@@ -404,19 +404,19 @@ const entry1 = {
                     words: ['chemist', 'pharmacy', 'tablets','cream',
                         'capsules', 'medicine', 'hospital', 'plaster', 'cough', 'rash']
                 },
-                phonics: {
-                    id: "entry1-wk10-phonics",
-                    title: "Phonics",
-                    rule: "rule2",
-                    words: ['word4', 'word5', 'word6']
-                },
+                // phonics: {
+                //     id: "entry1-wk10-phonics",
+                //     title: "Phonics",
+                //     rule: "rule2",
+                //     words: ['word4', 'word5', 'word6']
+                // },
                 grammar: {
                     id: "entry1-wk10-grammar",
                     title: "Grammar",
                     points: [
-                        { pattern: 'Pattern 1' },
-                        { pattern: 'Pattern 2' },
-                        { pattern: 'Pattern 3' },
+                        { pattern: 'She <strong>has got</strong> a cold.' },
+                        { pattern: "They<strong>'ve got</strong> the flu." },
+                        { pattern: 'I <strong>have got</strong> a headache.' },
                     ]
                 }
             },
@@ -460,19 +460,19 @@ const entry1 = {
                 grammar: [
                     {
                         classId: "e1-a",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/004108993",
                     },
                     {
                         classId: "e1-b",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0071880943",
                     },
                     {
                         classId: "e1-c",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0089204709",
                     },
                     {
                         classId: "e1-d",
-                        kahootUrl: "REPLACE_WITH_KAHOOT_URL",
+                        kahootUrl: "https://kahoot.it/challenge/0049840786",
                     }
                 ]
             }
