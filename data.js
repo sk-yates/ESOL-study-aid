@@ -393,10 +393,10 @@ const entry1 = {
             }
         },
 
-        {//Week 10 (Now Week 11) - Entry 1 - Unpublished
+        {//Week 10 (Now Week 11) - Entry 1 - Published (No Phonics)
             id: "week10",
             name: "Week 11",
-            published: false,
+            published: true,
             sections: {
                 spelling: {
                     id: "entry1-wk10-spelling-list",
